@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@+id/top_bar" 
+    android:layout_width="fill_parent" 
+    android:layout_height="80sp"
+    android:gravity="center"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+      <TextView android:id="@+id/title" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5sp"
+          android:singleLine="true"
+          android:textSize="18sp"
+          android:text="按违反啊违法违法按违反啊违法啊违法 啊"
+          android:textColor="@color/yellow_light"
+          android:paddingTop="7sp"
+          style="@style/topbar_title" />
+      <TextView android:id="@+id/description" 
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5sp"
+          android:layout_below="@id/title"
+          android:textSize="16sp"
+          android:gravity="center_vertical"
+          android:lines="2"
+          style="@style/topbar_title" 
+		  android:singleLine="false"
+          android:text="按违反啊违法违法按违反啊违法啊违法 啊"
+          android:textColor="@color/gray" />
+</RelativeLayout>
